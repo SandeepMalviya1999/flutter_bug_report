@@ -1,0 +1,37 @@
+Microsoft Windows [Version 10.0.19041.508]
+(c) 2020 Microsoft Corporation. All rights reserved.
+
+C:\Users\Beeboo\AndroidStudioProjects\flutter_app>flutter doctor -v
+[√] Flutter (Channel beta, 1.22.0, on Microsoft Windows [Version 10.0.19041.508], locale en-IN)
+    • Flutter version 1.22.0 at C:\flutter
+    • Framework revision d408d302e2 (7 days ago), 2020-09-29 11:49:17 -0700
+    • Engine revision 5babba6c4d
+    • Dart version 2.10.0
+
+[!] Android toolchain - develop for Android devices (Android SDK version 30.0.2)
+    • Android SDK at C:\Users\Beeboo\AppData\Local\Android\sdk
+    • Platform android-30, build-tools 30.0.2
+    • Java binary at: C:\Program Files\Android\Android Studio\jre\bin\java
+    • Java version OpenJDK Runtime Environment (build 1.8.0_242-release-1644-b01)
+    X Android license status unknown.
+      Run `flutter doctor --android-licenses` to accept the SDK licenses.
+      See https://flutter.dev/docs/get-started/install/windows#android-setup for more details.
+
+[√] Chrome - develop for the web
+    • Chrome at C:\Program Files\Google\Chrome\Application\chrome.exe
+
+[√] Android Studio (version 4.0)
+    • Android Studio at C:\Program Files\Android\Android Studio
+    • Flutter plugin version 50.0.1
+    • Dart plugin version 193.7547
+    • Java version OpenJDK Runtime Environment (build 1.8.0_242-release-1644-b01)
+
+[√] VS Code (version 1.49.3)
+    • VS Code at C:\Users\Beeboo\AppData\Local\Programs\Microsoft VS Code
+    • Flutter extension version 3.15.0
+
+[√] Connected device (2 available)
+    • Web Server (web) • web-server • web-javascript • Flutter Tools
+    • Chrome (web)     • chrome     • web-javascript • Google Chrome 85.0.4183.121
+
+! Doctor found issues in 1 category.

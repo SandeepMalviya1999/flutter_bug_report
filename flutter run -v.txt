@@ -1,0 +1,89 @@
+Microsoft Windows [Version 10.0.19041.508]
+(c) 2020 Microsoft Corporation. All rights reserved.
+C:\Users\Beeboo\AndroidStudioProjects\flutter_app>flutter run -v
+[ +136 ms] executing: [C:\flutter/] git -c log.showSignature=false log -n 1 --pretty=format:%H
+[  +75 ms] Exit code 0 from: git -c log.showSignature=false log -n 1 --pretty=format:%H
+[        ] d408d302e22179d598f467e11da5dd968dbdc9ec
+[        ] executing: [C:\flutter/] git tag --points-at HEAD
+[  +51 ms] Exit code 0 from: git tag --points-at HEAD
+[        ] 1.22.0
+           1.22.0-12.3.pre
+[  +10 ms] executing: [C:\flutter/] git rev-parse --abbrev-ref --symbolic @{u}
+[  +40 ms] Exit code 0 from: git rev-parse --abbrev-ref --symbolic @{u}
+[        ] origin/beta
+[        ] executing: [C:\flutter/] git ls-remote --get-url origin
+[  +36 ms] Exit code 0 from: git ls-remote --get-url origin
+[        ] https://github.com/flutter/flutter.git
+[  +75 ms] executing: [C:\flutter/] git rev-parse --abbrev-ref HEAD
+[  +36 ms] Exit code 0 from: git rev-parse --abbrev-ref HEAD
+[        ] beta
+[  +65 ms] Artifact Instance of 'AndroidMavenArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'AndroidGenSnapshotArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'AndroidInternalBuildArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'IOSEngineArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'FlutterWebSdk' is not required, skipping update.
+[   +4 ms] Artifact Instance of 'WindowsEngineArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'MacOSEngineArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'LinuxEngineArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'LinuxFuchsiaSDKArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'MacOSFuchsiaSDKArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'FlutterRunnerSDKArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'FlutterRunnerDebugSymbols' is not required, skipping update.
+[  +35 ms] executing: C:\Users\Beeboo\AppData\Local\Android\sdk\platform-tools\adb.exe devices -l
+[  +61 ms] List of devices attached
+[   +7 ms] Artifact Instance of 'AndroidMavenArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'AndroidGenSnapshotArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'AndroidInternalBuildArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'IOSEngineArtifacts' is not required, skipping update.
+[   +3 ms] Artifact Instance of 'WindowsEngineArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'MacOSEngineArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'LinuxEngineArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'LinuxFuchsiaSDKArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'MacOSFuchsiaSDKArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'FlutterRunnerSDKArtifacts' is not required, skipping update.
+[   +1 ms] Artifact Instance of 'FlutterRunnerDebugSymbols' is not required, skipping update.
+[  +65 ms] Multiple devices found:
+[  +23 ms] Web Server (web) • web-server • web-javascript • Flutter Tools
+[   +2 ms] Chrome (web)     • chrome     • web-javascript • Google Chrome 85.0.4183.121
+[   +2 ms] [0]: Web Server (web-server)
+[        ] [1]: Chrome (chrome)
+[   +2 ms] Please choose one (To quit, press "q/Q")
+[        ] : 
+[+3448 ms] 1
+[ +267 ms] Generating
+C:\Users\Beeboo\AndroidStudioProjects\flutter_app\android\app\src\main\java\io\flutter\plugins\Gener
+atedPluginRegistrant.java
+[ +121 ms] Launching lib\main.dart on Chrome in debug mode...
+[  +82 ms] Updating assets
+[ +140 ms] Syncing files to device Chrome...
+[  +87 ms] Generating
+C:\Users\Beeboo\AndroidStudioProjects\flutter_app\android\app\src\main\java\io\flutter\plugins\Gener
+atedPluginRegistrant.java
+[  +81 ms] <- reset
+[   +9 ms] C:\flutter\bin\cache\dart-sdk\bin\dart.exe --disable-dart-dev
+C:\flutter\bin\cache\artifacts\engine\windows-x64\frontend_server.dart.snapshot --sdk-root
+C:\flutter\bin\cache\flutter_web_sdk/ --incremental --target=dartdevc --debugger-module-names
+--experimental-emit-debug-metadata -Ddart.developer.causal_async_stacks=true --output-dill
+C:\Users\Beeboo\AppData\Local\Temp\flutter_tools.a8607e8\flutter_tool.2783e2b6\app.dill
+--libraries-spec file:///C:/flutter/bin/cache/flutter_web_sdk/libraries.json --packages .packages
+-Ddart.vm.profile=false -Ddart.vm.product=false
+--bytecode-options=source-positions,local-var-info,debugger-stops,instance-field-initializers,keep-unreachable-code,avoid-closure-call-instructions --enable-asserts --track-widget-creation
+--filesystem-root C:\Users\Beeboo\AppData\Local\Temp\flutter_tools.a8607e8\flutter_tools.fda23b00
+--filesystem-scheme org-dartlang-app --initialize-from-dill build\cache.dill.track.dill --platform
+file:///C:/flutter/bin/cache/flutter_web_sdk/kernel/flutter_ddc_sdk.dill
+[  +15 ms] <- compile org-dartlang-app:/web_entrypoint.dart
+[+10989 ms] Syncing files to device Chrome... (completed in 11,174ms, longer than expected)
+[   +1 ms] Synced 26.5MB.
+[   +1 ms] <- accept
+[        ] Caching compiled dill
+[ +295 ms] [CHROME]:
+[   +8 ms] [CHROME]:DevTools listening on
+ws://127.0.0.1:54330/devtools/browser/1aee7f67-d289-4a71-be30-cfe22b24ae8a
+[+7762 ms] Debug service listening on ws://127.0.0.1:54365/ze8MmGN4YEo=
+
+[ +405 ms] Debug service listening on ws://127.0.0.1:54365/ze8MmGN4YEo=
+[   +2 ms] Warning: Flutter's support for web development is not stable yet and hasn't
+[        ] been thoroughly tested in production environments.
+[        ] For more information see https://flutter.dev/web
+[        ]   To hot restart changes while running, press "r" or "R".
+[   +1 ms] For a more detailed help message, press "h". To quit, press "q".
